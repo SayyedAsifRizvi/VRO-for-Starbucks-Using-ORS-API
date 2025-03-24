@@ -6,7 +6,7 @@
 
 In an era where transportation efficiency is paramount, optimizing truck routing is essential for reducing costs and improving service delivery. This project leverages the OpenRouteService API and advanced optimization techniques to analyze and enhance routing strategies for transportation analysts. By utilizing Python, Pandas, and Folium, we can extract, process, and visualize routing data effectively. The goal is to streamline logistics operations, improve route planning, and empower decision-makers with actionable insights.
 ### Dataset
-This project uses a dataset based on Starbucks Worldwide locations. For the purpose of this project, we are considering the beautiful city of Regina. The dataset includes the following columns:
+This project uses a dataset based on Starbucks Worldwide locations. For the purpose of this project, we are considering the Indian city of Bangalore. The dataset includes the following columns:
 
 Link to the dataset: [Starbucks Locations Worldwide Dataset](https://www.kaggle.com/datasets/starbucks/store-locations)
 
@@ -49,11 +49,13 @@ Link to the dataset: [Starbucks Locations Worldwide Dataset](https://www.kaggle.
 2. **Mapping**:
    Folium is used to create an interactive map, where each location is marked with its corresponding service time, while we also set the start location.
 
-#### Starbucks Locations at Regina
-![img](images/map1.png)
+#### Starbucks Locations at Bengalore
+![img](![image](https://github.com/user-attachments/assets/f8ba5419-1123-4ffc-ad51-97dc4fb2c89b)
+)
 
 #### Setting Starting Point
-![img](images/startingpoint.png)
+![img](![image](https://github.com/user-attachments/assets/40333806-85d3-4ee0-9cef-ed972fee1edd)
+)
 
 
 3. **Route Optimization**:
@@ -64,21 +66,25 @@ Link to the dataset: [Starbucks Locations Worldwide Dataset](https://www.kaggle.
    The final map displays the optimized routes and provides information about arrival times for each job, allowing users to assess the efficiency of the planned routes.
 #### Before setting service time and other factors:
 
-![img](images/route1.png)
-![img](images/route2.png)
+![img](![image](https://github.com/user-attachments/assets/b85830e1-0e71-490a-aae5-0440a14236a7)
+)
+
 
 As you can see one vehicle does only one location while the other does the rest which is not realistic
 
 #### After Optimization with service time, jobs, shift time and other factors.
 
-![img](images/optim1.png)
-![img](images/optim2.png)
+![img](![image](https://github.com/user-attachments/assets/8a3f1cb6-1077-4c11-9535-9575c28d8ec0)
+)
+
 
 5. **Route Saved to Excel**:
    The routes for each vehicle are printed and saved in Excel for easy sharing.
 
-![img](images/excel1.png)
-![img](images/excel2.png)
+![img](![image](https://github.com/user-attachments/assets/82992a18-6b84-4d18-9dd7-cf3a6522b819)
+)
+![img](![image](https://github.com/user-attachments/assets/cc7c1eda-0812-4f1c-bc7c-a374552824ff)
+)
 
 ## Conclusion: 
 
